@@ -1,0 +1,77 @@
+html {
+  font-size: $typographic-root-font-size;
+}
+
+body {
+  font-family: $typographic-font-family;
+  line-height: $typographic-base-line-height;
+  font-size: $typographic-base-font-size * 0.8;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-base;
+  background-color: $color-background;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $typographic-font-family;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: $typographic-base-font-size * 1.375;
+}
+
+h3 {
+  font-size: $typographic-base-font-size * 1.1;
+}
+
+h4,
+h5,
+h6 {
+  font-size: $typographic-base-font-size;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+  margin: inherit auto;
+}
+
+hr {
+  border: 0;
+  color: $color-base;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-secondary;
+  }
+  transition: all 0.3s ease-in-out 0s;
+}
+
+b,
+strong {
+  font-weight: 500;
+}

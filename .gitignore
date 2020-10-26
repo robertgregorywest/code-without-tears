@@ -4,6 +4,7 @@ public/
 npm-debug.log
 .eslintcache
 .gatsby-context.js
+yarn-error.log
 .idea
 .DS_Store
 .env
