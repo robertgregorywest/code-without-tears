@@ -3,7 +3,17 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
-    <h1>Code Without Tears</h1>
+    <div>&gt;</div>
+    <div>
+      <h1 className="logo">
+        Code
+        <br />
+        Without
+        <br />
+        Tears
+        <div className="blink" />
+      </h1>
+    </div>
   </Layout>
 );
 

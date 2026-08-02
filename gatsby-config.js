@@ -2,6 +2,8 @@ require('dotenv').config();
 
 const url = 'https://codewithouttears.com/';
 
+// https://fonts.google.com/specimen/Inter?vfonly=true&query=inter
+
 module.exports = {
   // These properties are used by gatsby-plugin-sitemap
   // https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/#how-to-use
